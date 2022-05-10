@@ -1,0 +1,63 @@
+.Header-parent
+{
+    background-image: url(../../images/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7_mv2_d_11495_6131_s_4_2.webp);
+    background-position:fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+  
+
+    position: relative;
+    
+  
+ 
+}
+.Header-parent .OverLay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+ 
+    
+    background-color: rgba(17, 17, 17, 0.404);
+    opacity: 0.9;
+    
+    
+   
+}
+
+.Header-parent .OverLay .items h1 
+{
+color: rgb(255,255,255);
+letter-spacing: 0.2em;
+ font-family: 'Poppins', sans-serif;
+ text-transform: uppercase;
+ z-index: 99999;
+ font-weight: 700;
+ margin-bottom: 30px;
+
+}
+ .Header-parent .OverLay .items  .btn-danger {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border-color: white;
+    padding: 19px 56px;
+    text-transform: capitalize;
+    /* border: 1px; */
+    border-radius: 9px;
+    z-index: 999999;
+}
+.btn-danger:hover
+{
+    background-color: white !important;
+    color: #Bc4c2a !important;
+    border: 0 !important;
+}

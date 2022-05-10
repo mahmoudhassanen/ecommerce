@@ -1,0 +1,138 @@
+.parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.parent .wrap1
+{
+    flex: 50%;
+}
+.parent .wrap1 p 
+{
+    font-size: 16px;
+    white-space: pre-wrap;
+    color: #111111;
+    margin-top: 30px;
+    line-height: 1.7;
+    
+}
+.parent .wrap2 
+{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    flex: 50%;
+
+}
+.parent .wrap2 h1 
+{
+    color: #111111;
+    font-size: 40px;
+    text-transform: capitalize;
+    
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+.parent .wrap2 h2
+{
+    color: #111111;
+    font-size: 20px;
+    text-transform: capitalize;
+      margin-bottom: 10px;
+     margin-top: 20px; 
+    
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.parent .wrap2 span 
+{
+    color: #Bc4c2a;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Lobster', cursive;
+
+}
+.parent .wrap2 .btn-danger {
+    color: #fff;
+    background-color: #Bc4c2a;
+    padding: 5px 120px;
+    text-align: center;
+    font-size: large;
+   
+    margin-top: 40px ;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.parent .wrap2 .btn-danger:hover
+{ color: #fff !important;
+    background-color: #Bc4c2a !important;
+
+}
+.parent .wrap2 .btn {
+  
+    font-weight: 300;
+   
+
+}
+.parent .wrap2 .btn-dark {
+    color: #fff;
+    
+    padding: 5px 130px;
+    text-align: center;
+    font-size: large;
+   
+    margin-top: 3px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.parent .wrap2 a {
+    color: #Bc4c2a;
+    text-decoration: none;
+    margin-right: 200px;
+    font-family: 'Lobster', cursive;
+font-style: italic;
+    font-size: 17px;
+    font-weight:200 !important;
+    text-transform: capitalize !important;
+    margin-top: 20px;
+    
+}
+.parent .wrap2 .set2 
+{
+    margin-right: 105px !important;
+}
+.parent .wrap2 .set3
+{
+    margin-right: 190px !important;
+}
+.parent .wrap2 .set {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.parent .wrap2  .fa-plus  {
+    font-family:sans-serif;
+    font-weight: 500;
+    color: #bc4c2a;
+    font-size: 25px;
+}
+.parent .wrap2  .fa-minus {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    color: #bc4c2a;
+    font-size: 15px;
+}
+.parent .wrap2 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border:none !important; 
+     border-radius: none;
+}

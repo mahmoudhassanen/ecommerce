@@ -1,0 +1,22 @@
+.nav-link 
+{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 10px;
+    font-weight: 400;
+   text-align: center;
+   color: #111111 !important;
+   
+   
+   
+
+
+
+}
+.navbar-light .navbar-nav  .nav-link:active  {
+    color: #Bc4c2a !important; 
+}
+.navbar-light .navbar-nav  .nav-link:hover
+{
+    color: #Bc4c2a !important; 
+}
