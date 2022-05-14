@@ -6,7 +6,7 @@ import './QuickView.css'
 
 
 function QuickView() {
-  let { product , AddCart  } = useContext(DataContext);
+  let { AllProduct , AddCart  } = useContext(DataContext);
   const [product1, setproduct1] = useState([])
  
 
@@ -23,7 +23,7 @@ let parm = useParams();
   function GetProduct() {
 
     if (parm.id) {
-      const Data = product.filter((item => {
+      const Data = AllProduct.filter((item => {
         return item.id === parm.id
       })
       )

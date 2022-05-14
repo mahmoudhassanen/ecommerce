@@ -21,6 +21,22 @@ font-style: italic;
     font-size: 15px;
     
 }
+form .list 
+{
+
+    list-style: none;
+    
+}
+form p 
+{
+    display: inline-block;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    text-decoration: none;
+    color: #111111;
+    margin-left: 5px;
+
+}
 .btn-outline-dark {
     color: #Bc4c2a !important;
     border-color:none !important;

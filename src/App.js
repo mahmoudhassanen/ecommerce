@@ -9,6 +9,7 @@ import OurStory from './pages/OurStory/OurStory';
 import ShopAll from './pages/ShopAll/ShopAll';
 import {DataContextProvider} from './Data'
 import QuickView from './components/QuickView/QuickView';
+import Cart from './pages/Cart/Cart';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route  path=':id' element={ <QuickView/> } />
 
             </Route>
+            <Route  path='cart' element={ <Cart/> } />
       
       
       

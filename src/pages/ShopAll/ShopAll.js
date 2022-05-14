@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 
 function ShopAll() {
-  let { product } = useContext(DataContext);
-  const [Filter, setFilter] = useState(product)
+  let { AllProduct } = useContext(DataContext);
+  const [Filter, setFilter] = useState(AllProduct)
 
   const [LoadingMore, setLoadingMore] = useState(16)
   const [Show, setShow] = useState(false)
@@ -17,14 +17,14 @@ function ShopAll() {
  
 
   const  dataProduct = (cat) => {
-    const UpdateData = product.filter((x)=>x.category === cat );
+    const UpdateData = AllProduct.filter((x)=>x.category === cat );
     setFilter(UpdateData)
     console.log(UpdateData)
    
     
 }
 const  FilterModel = (cat) => {
-  const UpdateData = product.filter((x)=>x.model === cat );
+  const UpdateData = AllProduct.Products.filter((x)=>x.model === cat );
 
     setFilter(UpdateData)
     console.log(UpdateData)
@@ -70,7 +70,7 @@ Collection
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
     <ul>
-      <li  onClick={()=>{setFilter(product)}} > All </li>
+      <li  onClick={()=>{setFilter(AllProduct)}} > All </li>
       <li onClick={()=> dataProduct("bags") }> Bags </li>
       <li onClick={()=> dataProduct("Phone Cases") }> Phone Cases </li>
       <li onClick={()=> dataProduct("Mini leather goods") }> Mini leather goods </li>

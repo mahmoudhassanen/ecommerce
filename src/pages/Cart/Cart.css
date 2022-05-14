@@ -1,0 +1,106 @@
+.Cart 
+{
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.cart 
+{
+    border-bottom-color: rgba(17, 17, 17, 0.2);
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    position: relative;
+
+    
+}
+
+.cart .cart-ig 
+{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.cart .cart2 
+{
+ margin-left: 50px;
+
+ 
+}
+.cart h2 
+{
+    color: #111111;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.cart h3 
+{
+    color: #111111;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.4;
+      margin-bottom: 10px;
+   
+    
+    font-family: 'Quicksand', sans-serif;
+}
+.cart p 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    line-height: 1.8;
+    width: 600px;
+    text-transform: capitalize;
+}
+.cart span 
+{
+    color: #Bc4c2a;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Lobster', cursive;
+}
+.Cart .total 
+{
+    position: absolute;
+    left: 77%;
+    color: rgb(226, 79, 79);
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+font-style: italic;
+font-weight: bold;
+    top: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Cart .GroubBTN 
+{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.cart .delete 
+{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    color: #Bc4c2a;
+    font-size: 25px;
+    
+
+}
+.Cart .count 
+{
+    width: 40px;
+    height: 30px;
+    border : 1px solid transparent;
+outline: none;
+color: white;
+cursor: pointer;
+text-align: center;
+background-color:#Bc4c2a;
+margin: 0 10px 0 15px;
+}

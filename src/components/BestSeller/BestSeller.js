@@ -4,6 +4,7 @@ import "./BestSeller.css"
 import Slider from "react-slick";
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom'
+import QUICK from './QUICK';
 
 
 
@@ -11,8 +12,8 @@ import { Link } from 'react-router-dom'
 
 function BestSeller() {
  let parm = useParams()
-  let { product } = useContext(DataContext);
-  const [Filter, setFilter] = useState(product)
+  let { AllProduct } = useContext(DataContext);
+  const [Filter, setFilter] = useState(AllProduct)
  let params = useParams();
 
 
@@ -28,7 +29,7 @@ function BestSeller() {
 
   };
   const dataProduct = () => {
-    const UpdateData = product.filter((x) => x.best_sellers === "true");
+    const UpdateData = AllProduct.filter((x) => x.best_sellers === "true");
     setFilter(UpdateData)
     console.log(UpdateData)
 
@@ -76,15 +77,15 @@ function BestSeller() {
 
 
 
-               
-           
+
+
               
              
-              
+
+  
               
               
 
-            
               
 
 
